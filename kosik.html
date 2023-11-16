@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="reset.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CinHusPos Shop</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="hlavicka">
+        <h1><a href="index.html">CinHusPos Shop</a></h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="pchry.html">Xbox series S/X</a></li>
+                <li><a href="pchry.html">Play&shy;Station 5</a></li>
+                <li><a href="pchry.html">PC</a></li>
+            </ul>
+        </nav>
+        <div class="vyhledavani menu">
+            <input type="text" placeholder="Vyhledávání...">
+            <button onclick="location.href='vysledky.html'" type="button">Hledat</button>
+        </div>
+        <a href="kosik.html" class="ikona menu">&#128722;</a>
+        <div class="menutlacitko krizek" onclick="tlacitkoklik(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    </header>
+    <section class="obsah">
+        <article>
+            <h1>Váš košík je prázdný </h1>
+            <pre style="overflow:hidden">
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⠶⠛⠛⠛⠛⠶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣇⠀⠀⠀⠀⣠⡤⠤⣄⡀⠀⠀⢀⡤⠤⣬⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡀⠀⠀⡾⠁⠀⠀⠀⢻⡄⢠⡏⠀⣀⠀⢹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣧⠀⠀⣧⠀⠛⠃⠀⣰⠃⠈⢷⣄⡋⢀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⢿⡄
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡆⠀⠈⠓⠦⠤⠞⠋⠀⠀⠀⠈⠙⢿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⡆⠀⢠⣶⡟⠈⣷
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠈⠙⠋⢁⠀⠀⠀⠀⠀⠀⣄⠹⣆⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠟⠁⣾⠃⣴⣿⠁⠀⠀⢹
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⢠⣴⣤⣄⡞⠀⢠⠀⠀⣆⠀⠸⡀⢹⣆⠀⠀⠀⠀⠀⠀⢠⡿⠁⠀⢸⣯⣼⡇⠀⠀⠀⠀⣾
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠘⣿⡿⢿⡇⠀⢸⠀⠀⢿⠀⠀⣇⠀⢻⣆⠀⠀⠀⠀⠀⣿⠁⠀⠀⣸⣿⠁⠀⠀⠀⠀⢀⡿
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⣧⠀⠀⠉⢻⡀⠀⣼⠀⠀⣼⣄⠀⢹⣦⣴⠏⠀⠀⠀⠀⢸⡇⠀⠀⢰⠏⠀⠀⠀⠀⠀⠀⣼⠇
+                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⡶⠟⠁⠀⠘⢿⠦⢤⣀⣉⠉⠈⠣⠴⠃⣈⡩⣏⠙⢷⣄⡀⠀⠀⠀⢾⡇⠀⠀⠉⠀⠀⠀⠀⠀⢀⣾⠋⠀
+                ⠀⠀⠀⠀⠀⠀⣠⣤⠾⣏⠁⠀⠀⠀⠀⠀⠈⠳⣄⡀⠉⠉⠉⠉⢻⠉⠁⣀⡿⠀⠀⠘⡟⠷⣤⣠⣿⣇⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀
+                ⠀⠀⠀⢀⣴⠟⠋⠀⠀⠘⣇⠀⠀⠀⠀⠀⠀⠀⠈⠻⣟⠒⠒⠒⠛⠚⠋⣹⠃⠀⠀⠀⢻⠀⠈⠙⣿⠉⠓⠲⠶⠶⠖⠚⠉⢹⣆⠀⠀⠀
+                ⠀⢀⣴⠟⠁⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠦⣄⠀⠀⣰⠏⠀⠀⠀⠀⢸⠀⠀⣠⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀
+                ⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣹⠾⠃⠀⠀⠀⠀⠀⢸⠀⠘⢹⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀</pre>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2023 Game Shop</p>
+    </footer>
+</body>
+
+</html>

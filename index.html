@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="reset.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CinHusPos Shop</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="hlavicka">
+        <h1><a href="index.html">CinHusPos Shop</a></h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="pchry.html">Xbox series S/X</a></li>
+                <li><a href="pchry.html">Play&shy;Station 5</a></li>
+                <li><a href="pchry.html">PC</a></li>
+            </ul>
+        </nav>
+        <div class="vyhledavani menu">
+            <input type="text" placeholder="Vyhledávání...">
+            <button onclick="location.href='vysledky.html'" type="button">Hledat</button>
+        </div>
+        <a href="kosik.html" class="ikona menu">&#128722;</a>
+        <div class="menutlacitko krizek" onclick="tlacitkoklik(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+    </header>
+
+    <div class="banner">
+        <h1>Vítej na naší stránce</h1>
+        <p>Objevuj nejnovější herní tituly</p>
+    </div>
+
+    <section class="obsah">
+        <article class="design">
+            <H2>Proč CinHusPos Shop?</H2>
+            <div class="mrizka" style="size: 10em;">
+                <div class="mrizka-bunka jednoblok">
+                    <h2><a href="detailhry.html">Nejlepší ceny</a></h2>
+                    <a class="ikona">&#128181</a>
+                </div>
+
+                <div class="mrizka-bunka jednoblok">
+                    <h2><a href="detailhry.html">Velký výběr her</a></h2>
+                    <a class="ikona">&#127918</a>
+                </div>
+
+
+                <div class="mrizka-bunka jednoblok">
+                    <h2><a href="detailhry.html">Ověřená legální stránka</a></h2>
+                    <a class="ikona">&#128269</a>
+                </div>
+
+            </div>
+            <div class="kontejner-tlacitek">
+                <a href="#recomended" class="tlacitko">Doporučeno pro vás!</a>
+                <a href="#top" class="tlacitko">Top dnes!</a>
+            </div>
+        </article>
+
+        <article class="design" id="recomended">
+            <H2>Doporučeno pro vás!</H2>
+            <div class="mrizka">
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/27/1200/600');">
+                    <h2><a href="detailhry.html"> Falloud 69 </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>
+                </div>
+
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/29/1200/600');">
+                    <h2><a href="detailhry.html"> Steep Speed </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>
+                </div>
+
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/43/1200/600');">
+                    <h2><a href="detailhry.html"> Mafie 7 </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>¨
+                </div>
+            </div>
+            <button onclick="location.href='pchry.html'" class="tlacitko">Vidět vše</button>
+        </article>
+
+        <article class="design" id="top">
+            <H2>Top dnes!</H2>
+            <div class="mrizka">
+
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/29/1200/600');">
+                    <h2><a href="detailhry.html"> Steep Speed </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>
+                </div>
+
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/31/1200/600');">
+                    <h2><a href=" detailhry.html"> Taranthino </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>
+                </div>
+
+                <div class="mrizka-bunka jednoblok"
+                    style="background-image: url('https://picsum.photos/id/43/1200/600');">
+                    <h2><a href="detailhry.html"> Mafie 7 </a></h2>
+                    <p>Cena: Fre<br>
+                        Hodnocení: 9/10<br></p>
+                    <button onclick="location.href='kosik.html'" class="tlacitko">Koupit hned!</button>¨
+                </div>
+            </div>
+            <button onclick="location.href='pchry.html'" class="tlacitko">Vidět vše</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Game Shop</p>
+    </footer>
+</body>
+
+</html>

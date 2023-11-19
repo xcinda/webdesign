@@ -67,31 +67,37 @@ nav ul li {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .menutlacitko {
     display: inline-block;
     cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
+}
+
+.bar1,
+.bar2,
+.bar3 {
     width: 35px;
     height: 5px;
     background-color: #ffffff;
     margin: 6px 0;
     transition: 0.4s;
-  }
-  
-  /* Rotate first bar */
-  .krizek .bar1 {
+}
+
+.krizek .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  /* Fade out the second bar */
-  .krizek .bar2 {opacity: 0;}
-  
-  /* Rotate last bar */
-  .krizek .bar3 {
+}
+
+.krizek .bar2 {
+    opacity: 0;
+}
+
+.krizek .bar3 {
     transform: translate(0, -11px) rotate(45deg);
-  }
+}
+
+.ikona {
+    font-size: 2em;
+}
 
 h1 {
     font-size: 2em;
@@ -121,6 +127,7 @@ h1 {
     color: #fff;
     text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5), 1px -1px 2px rgba(0, 0, 0, 0.5), -1px 1px 2px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 .obsah p {
     text-align: justify;
 }
@@ -223,9 +230,34 @@ h1 {
     object-fit: cover;
 }
 
+.kosik {
+    display: flex;
+    flex-direction: column;
+}
 
-.ikona {
-    font-size: 2em;
+.kosik article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.kosik-hry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.kosik-hry img {
+    object-fit: cover;
+    width: 10vw;
+    height: 10vw;
+    margin-right: 2em;
+}
+
+.kosik-doprava table{
+    width: 100%;
+    text-align: left;
 }
 
 footer {
@@ -273,13 +305,14 @@ footer {
 }
 
 @media screen and (min-width: 850px) {
-    .menutlacitko{
+    .menutlacitko {
         display: none;
     }
-    .menu
-    {
+
+    .menu {
         display: block;
     }
+
     .mrizka {
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     }

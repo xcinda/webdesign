@@ -1,3 +1,8 @@
+:root{
+    --barva_pozadi: #2196F3;
+    --sekundarni_pozadi: rgba(255, 255, 255, 0.8);
+    --sekundarni_barva: #333;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: var(--sekundarni_barva);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -61,7 +66,7 @@ nav ul li {
 
 .vyhledavani button {
     padding: 5px 10px;
-    background-color: #333;
+    background-color: var(--sekundarni_barva);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -116,7 +121,7 @@ h1 {
 }
 
 .mrizka-bunka {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--sekundarni_pozadi);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -157,7 +162,7 @@ h1 {
 }
 
 .design {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--sekundarni_pozadi);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -165,7 +170,7 @@ h1 {
 }
 
 .obsah {
-    background-color: #2196F3;
+    background-color: var(--barva_pozadi);
     padding: 1rem;
     gap: 1rem;
 }
@@ -235,9 +240,17 @@ h1 {
     flex-direction: column;
 }
 
-.kosik article {
+.kosik article,.kosik aside {
     width: 80%;
     margin: 0 auto;
+}
+
+.objednat {
+    margin: 0 auto;
+    width: 50%;
+}
+.kosik footer{
+    text-align: center;
 }
 
 .kosik-hry {
@@ -260,8 +273,8 @@ h1 {
     text-align: left;
 }
 
-footer {
-    background-color: #333;
+.paticka {
+    background-color: var(--sekundarni_barva);
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -295,7 +308,7 @@ footer {
     background-image: url("https://picsum.photos/id/861/1980/300.jpg");
     text-align: center;
     padding: 50px;
-    color: #333;
+    color: var(--sekundarni_barva);
     text-shadow: -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white, 1px 1px 2px white;
 }
 

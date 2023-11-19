@@ -36,10 +36,10 @@
         <section class="design kosik">
             <p>V košíku máte:</p>
             <article class="design kosik-hry">
-                <img src="https://picsum.photos/id/331/1200/600">
+                <img src="https://picsum.photos/id/133/1200/600">
                 <h3>Burnaut </h3>
                 <p>1670 Kč</p>
-                <p class="ikona">&#128465;</p>
+                <a href="index.html"class="ikona"><p>&#128465;</p></a>
             </article>
             <p>Doprava:</p>
             <article class="design kosik-doprava">
@@ -65,9 +65,61 @@
 
                 </form>
             </article>
+            <p>Forma platby:</p>
+            <article class="design kosik-doprava">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="dobirka">Dobírka</label></td>
+                            <td>+50 Kč</td>
+                            <td><input type="radio" name="platba" id="dobirka" value="dobirka"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ucet">Převod z účtu</label></td>
+                            <td>zdarma</td>
+                            <td><input type="radio" name="platba" id="ucet" value="ucet"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="karta"><label for="PPL">Platba Kartou</label></label></td>
+                            <td>1% cashback</td>
+                            <td><input type="radio" name="platba" id="karta" value="karta"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gpay"><label for="PPL">Google Play</label></label></td>
+                            <td>zdarma</td>
+                            <td><input type="radio" name="platba" id="gpay" value="gpay"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="apay"><label for="PPL">Apple Pay</label></label></td>
+                            <td>zdarma</td>
+                            <td><input type="radio" name="platba" id="apay" value="apay"></td>
+                        </tr>
+
+                    </table>
+
+                </form>
+            </article>
+            <p>Souhlas:</p>
+            <aside class="design">
+                <form>
+                    <input type="checkbox" name="podminky" id="obchodnipodminky">
+                    <label for="obchodnipodminky">Zaškrtnutím tohoto políčka vyjadřuji souhlas se <a>všeobecnými
+                            obchodními podmínkami</a> (*)</label><br>
+                    <input type="checkbox" name="podminky" id="GDPR">
+                    <label for="GDPR">Zaškrtnutím tohoto políčka vyjadřuji souhlas se <a>zpracováním osobních
+                            údajů</a>(*)</label><br>
+                    <input type="checkbox" name="podminky" id="newsletter">
+                    <label for="GDPR">Zaškrtnutím tohoto políčka se přihlašuji k newsletteru o novinkách a slevách
+                        obchodu CinHusPos Shop</a></label>
+                </form>
+                <footer>
+                    <p>Pole označená (*) jsou povinná</p>
+                </footer>
+            </aside>
+            <a class="tlacitko objednat" href="index.html">Objednat!</a>
         </section>
     </main>
-    <footer>
+    <footer class="paticka">
         <p>Studentský projekt na předmět Webdesign | Cinybulk, Husarik, Pospíšil | &copy;&nbsp;2023</p>
     </footer>
 </body>

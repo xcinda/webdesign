@@ -1,8 +1,11 @@
-:root{
+:root {
     --barva_pozadi: #2196F3;
     --sekundarni_pozadi: rgba(255, 255, 255, 0.8);
     --sekundarni_barva: #333;
+    --ztmaveni: rgba(0, 0, 0, 0.6);
+    --zesvetleni: rgba(255, 255, 255, 0.60);
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -145,12 +148,12 @@ h1 {
 }
 
 .mrizka-bunka h2 {
-    background: rgba(255, 255, 255, 0.60);
+    background: var(--zesvetleni);
     border-radius: 10px;
 }
 
 .obsah .mrizka .mrizka-bunka p {
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--ztmaveni);
     border-radius: 10px;
     text-align: center;
 }
@@ -241,7 +244,8 @@ h1 {
     flex-direction: column;
 }
 
-.kosik article,.kosik aside {
+.kosik article,
+.kosik aside {
     width: 80%;
     margin: 0 auto;
 }
@@ -250,7 +254,8 @@ h1 {
     margin: 0 auto;
     width: 50%;
 }
-.kosik footer{
+
+.kosik footer {
     text-align: center;
 }
 
@@ -269,7 +274,7 @@ h1 {
     margin-right: 2em;
 }
 
-.kosik-doprava table{
+.kosik-doprava table {
     width: 100%;
     text-align: left;
 }
@@ -311,6 +316,14 @@ h1 {
     padding: 50px;
     color: var(--sekundarni_barva);
     text-shadow: -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white, 1px 1px 2px white;
+}
+
+.banner h1 {
+    background: var(--zesvetleni);
+}
+
+.banner p {
+    background: var(--ztmaveni);
 }
 
 

@@ -104,7 +104,6 @@ nav ul li {
 }
 
 .kosikkrizek {
-    display: inline-block;
     cursor: pointer;
 }
 
@@ -229,6 +228,7 @@ h1 {
 }
 
 .recenze img {
+    border-radius: 10px;
     display: inline;
     object-fit: cover;
     width: 10vw;
@@ -290,7 +290,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .kosik-hry img {
@@ -354,7 +354,8 @@ h1 {
 
 
 .popis img {
-    width: 100%;
+    width: 80%;
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 850px) {

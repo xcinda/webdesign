@@ -189,7 +189,9 @@ h1 {
     margin: 1rem;
 }
 
-.detaily,
+.detaily{
+    text-align: left;
+}
 .funkce {
     text-align: left;
 }
@@ -245,12 +247,17 @@ h1 {
     flex-direction: column;
 }
 
+.kosik article{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .kosik-hry a {
     text-decoration: none;
     color: #000000;
 }
 
-.kosik article,
+
 .kosik aside {
     width: 80%;
     margin: 0 auto;

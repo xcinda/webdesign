@@ -327,15 +327,17 @@ h1 {
     background-image: url("https://picsum.photos/id/861/1980/300.jpg");
     text-align: center;
     padding: 50px;
-    color: var(--sekundarni_barva);
-    text-shadow: -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white, 1px 1px 2px white;
 }
 
 .banner h1 {
+    color: var(--sekundarni_barva);
+    border-radius: 10px;
     background: var(--zesvetleni);
 }
 
 .banner p {
+    color: #FFFFFF;
+    border-radius: 10px;
     background: var(--ztmaveni);
 }
 

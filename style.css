@@ -150,12 +150,18 @@ h1 {
 .mrizka-bunka h2 {
     background: var(--zesvetleni);
     border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25em;
 }
 
 .obsah .mrizka .mrizka-bunka p {
     background: var(--ztmaveni);
     border-radius: 10px;
     text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25em;
 }
 
 .mrizka-bunka img {
@@ -189,9 +195,10 @@ h1 {
     margin: 1rem;
 }
 
-.detaily{
+.detaily {
     text-align: left;
 }
+
 .funkce {
     text-align: left;
 }
@@ -247,7 +254,7 @@ h1 {
     flex-direction: column;
 }
 
-.kosik article{
+.kosik article {
     width: 80%;
     margin: 0 auto;
 }
@@ -333,12 +340,19 @@ h1 {
     color: var(--sekundarni_barva);
     border-radius: 10px;
     background: var(--zesvetleni);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25em;
 }
 
 .banner p {
     color: #FFFFFF;
     border-radius: 10px;
     background: var(--ztmaveni);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    padding: 0.25em;
 }
 
 
@@ -368,7 +382,8 @@ h1 {
     .hlavicka {
         flex-direction: row;
     }
-    .vyhledavani button{
+
+    .vyhledavani button {
         padding: 5px 20px;
     }
 }

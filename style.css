@@ -103,30 +103,6 @@ nav ul li {
     transform: translate(0, -11px) rotate(45deg);
 }
 
-.kosikkrizek {
-    cursor: pointer;
-}
-
-.kriz1,
-.krizodd,
-.kriz2 {
-    width: 35px;
-    height: 5px;
-    background-color: #000000;
-    margin: 6px 0;
-}
-
-.kriz1 {
-    transform: translate(0, 11px) rotate(-45deg);
-}
-
-.krizodd {
-    opacity: 0;
-}
-
-.kriz2 {
-    transform: translate(0, -11px) rotate(45deg);
-}
 
 .ikona {
     font-size: 2em;
@@ -268,6 +244,11 @@ h1 {
 .kosik {
     display: flex;
     flex-direction: column;
+}
+
+.kosik-hry a{
+    text-decoration: none;
+    color:#000000;
 }
 
 .kosik article,

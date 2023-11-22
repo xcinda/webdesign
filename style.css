@@ -45,7 +45,7 @@ body {
 }
 
 nav {
-    width: 30vw;
+
 }
 
 nav ul {
@@ -57,10 +57,11 @@ nav ul {
 nav ul li {
     display: inline-block;
     text-align: center;
+    width: 100vw;
     padding: 10px;
     background-color: #5a5a5a;
     border-radius: 4px;
-    margin-bottom: 0.5em;
+    margin:0.5em;     
 }
 
 .vyhledavani input {
@@ -70,9 +71,11 @@ nav ul li {
 }
 
 .vyhledavani button {
-    padding: 20px 20px;
+    margin: 5px;
+    padding: 1em;
     background-color: var(--sekundarni_barva);
     color: #fff;
+    background-color: #5a5a5a;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -372,6 +375,10 @@ h1 {
 
     .menu {
         display: block;
+    }
+
+    .menu li{
+        width: initial;    
     }
 
     .mrizka {

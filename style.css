@@ -1,9 +1,11 @@
 :root {
-    --barva_pozadi: #2196F3;
+    --barva_pozadi: rgb(197,197,197);
     --sekundarni_pozadi: rgba(255, 255, 255, 0.8);
     --sekundarni_barva: #333;
     --ztmaveni: rgba(0, 0, 0, 0.6);
     --zesvetleni: rgba(255, 255, 255, 0.60);
+    --tlacitko_barva: #a1c900; 
+    --tlacitko_hover: #728f00;
 }
 
 html {
@@ -315,7 +317,7 @@ h1 {
 }
 
 .tlacitko {
-    background-color: #3498db;
+    background-color: var(--tlacitko_barva);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -329,7 +331,7 @@ h1 {
 }
 
 .tlacitko:hover {
-    background-color: #2980b9;
+    background-color: var(--tlacitko_hover);
 }
 
 .banner {

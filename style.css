@@ -78,6 +78,10 @@ nav ul li {
     cursor: pointer;
 }
 
+.menu {
+    display: none;
+}
+
 .menutlacitko {
     display: inline-block;
     cursor: pointer;

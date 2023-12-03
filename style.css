@@ -303,7 +303,10 @@ h1 {
     width: 100%;
     text-align: left;
 }
-
+.kosik-doprava td{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
 .kosik footer {
     font-size: 0.75em;
 }

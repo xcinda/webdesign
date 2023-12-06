@@ -56,7 +56,7 @@ nav ul li {
     text-align: center;
     width: 100vw;
     padding: 10px;
-    background-color: #5a5a5a;
+    background-color: #404040;
     border-radius: 4px;
     margin:0.5em;     
 }
@@ -383,7 +383,8 @@ h1 {
     }
 
     .menu li{
-        width: initial;    
+        width: initial;   
+        background-color: initial; 
     }
 
     .mrizka {
@@ -399,9 +400,14 @@ h1 {
         flex-direction: row;
     }
 
+    .vyhledavani {
+        margin-left: 1em;
+    }
+
     .vyhledavani button {
         padding: 5px 20px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {

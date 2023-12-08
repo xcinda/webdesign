@@ -113,11 +113,19 @@ nav ul li {
     font-size: 2em;
 }
 
-h1 {
-    font-size: 2em;
+.drobecky{
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    color:#404040;
+}
+
+.drobecky a{
+    text-decoration: none;
+    color:#404040;
 }
 
 h1 {
+    font-size: 2em;
     text-align: center;
 }
 

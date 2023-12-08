@@ -113,15 +113,15 @@ nav ul li {
     font-size: 2em;
 }
 
-.drobecky{
+.drobecky {
     font-size: 18px;
     padding-bottom: 0.5em;
-    color:#404040;
+    color: #404040;
 }
 
-.drobecky a{
+.drobecky a {
     text-decoration: none;
-    color:#404040;
+    color: #404040;
 }
 
 h1 {
@@ -267,6 +267,10 @@ h1 {
     flex-direction: column;
 }
 
+.kosik p{
+    text-align: center;
+}
+
 .kosik article {
     width: 80%;
     margin: 0 auto;
@@ -317,6 +321,14 @@ h1 {
 
 .kosik footer {
     font-size: 0.75em;
+}
+
+.kosik aside p{
+    text-align: left;;
+}
+
+.vyhlnadpis {
+    text-align: center;
 }
 
 .paticka {

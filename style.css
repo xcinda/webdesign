@@ -330,7 +330,8 @@ h1 {
 }
 
 .kosik-udaje td *{
-    width:80%
+    width:80%;
+    padding
 }
 .kosik footer {
     font-size: 0.75em;
